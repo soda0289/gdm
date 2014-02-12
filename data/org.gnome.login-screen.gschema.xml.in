@@ -1,5 +1,15 @@
 <schemalist>
   <schema id="org.gnome.login-screen" path="/org/gnome/login-screen/">
+    <key name="enable-graph-authentication" type="b">
+      <default>false</default>
+      <_summary>
+       Use Graph Authenticator for user logins.
+      </_summary>
+      <_description>
+	   The login screen can optionally allow users to access their
+	   accounts with a pattern/graph login token.
+      </_description>
+    </key>
     <key name="enable-fingerprint-authentication" type="b">
       <default>true</default>
       <_summary>
